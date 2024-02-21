@@ -1,5 +1,5 @@
-function loadHome() {
-    console.log("Loading home");
+function loadHome(display) {
+    display.innerHTML = "Home";
 }
 
 export default loadHome;
